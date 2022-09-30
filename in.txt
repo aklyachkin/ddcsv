@@ -1,0 +1,30 @@
+Group: ABC12352
+
+Initiators:
+Initiator Alias   Initiator WWPN
+---------------   -----------------------
+Cinitiator1       21:00:00:24:FF:72:99:BC
+---------------   -----------------------
+
+Devices:
+Device Name          LUN   Primary Ports   Secondary Ports    In-use Ports
+------------------   ---   -------------   ---------------   -------------
+TAPVTS01 changer       0   endpoint-fc-2     endpoint-fc-2   endpoint-fc-2
+TAPVTS01 drive 135     1   endpoint-fc-2     endpoint-fc-2   endpoint-fc-2
+------------------   ---   -------------   ---------------   -------------
+
+
+Group: ABC12355
+
+Initiators:
+Initiator Alias   Initiator WWPN
+---------------   -----------------------
+Cinitiator2       21:00:00:24:FF:72:99:BD
+---------------   -----------------------
+
+Devices:
+Device Name         LUN                 Primary Ports               Secondary Ports                  In-use Ports
+-----------------   ---   ---------------------------   ---------------------------   ---------------------------
+TAPVTS01 changer      0   endpoint-fc-1,endpoint-fc-3   endpoint-fc-1,endpoint-fc-3   endpoint-fc-1,endpoint-fc-3
+TAPVTS01 drive 24     1   endpoint-fc-1,endpoint-fc-3   endpoint-fc-1,endpoint-fc-3   endpoint-fc-1,endpoint-fc-3
+-----------------   ---   ---------------------------   ---------------------------   ---------------------------
